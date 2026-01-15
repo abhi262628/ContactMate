@@ -43,4 +43,24 @@ ContactMate is a secure, full-stack contact management web application that allo
 ---
 
 ## 🏗 Architecture Overview
+## 🏗 Architecture Overview
 
+ContactMate follows a **layered MVC architecture** to ensure separation of concerns, scalability, and maintainability.
+
+```text
+Client (Browser)
+      |
+      v
+Thymeleaf Views (UI Layer)
+      |
+      v
+Controller Layer (Spring MVC Controllers)
+      |
+      v
+Service Layer (Business Logic)
+      |
+      v
+Repository Layer (Spring Data JPA)
+      |
+      v
+MySQL Database
