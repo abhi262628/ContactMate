@@ -43,7 +43,6 @@ ContactMate is a secure, full-stack contact management web application that allo
 ---
 
 ## 🏗 Architecture Overview
-## 🏗 Architecture Overview
 
 ContactMate follows a **layered MVC architecture** to ensure separation of concerns, scalability, and maintainability.
 
